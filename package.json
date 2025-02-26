@@ -1,0 +1,25 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "A Next.js application with a webhook API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "twitter-api-v2": "^1.20.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "typescript": "latest"
+  },
+  "license": "MIT"
+}
