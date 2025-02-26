@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getContentItem } from '../../utils/kontent/getContentItem';
-import { twitterClient } from '../../utils/twitter';
+import { twitterClient } from '../../utils/twitter/twitter';
 
 let webhookData: any = null;
 
